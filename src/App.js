@@ -1,10 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import TodoFeature from './features';
 
 function App() {
+
+  const footballer ={
+    name: "Martin Lo",
+    age: 25,
+    isMale: true
+  }
+  const colorList = ['red', 'green', 'blue'];
+
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +26,17 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+
+      <p>{footballer.name} - tuổi: {footballer.age} - giới tính: {footballer.isMale ? "Male" : "Female"}</p>
+      <ul>
+        {colorList.map(color => (
+          <li style={{color}}>{color}</li>     
+        ))}
+      </ul>
+
+      <TodoFeature/>
+      </header> */}
+      <TodoFeature />
     </div>
   );
 }
