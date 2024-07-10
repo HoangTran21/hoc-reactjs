@@ -1,0 +1,14 @@
+.album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    .album-item{
+        margin: 10px;
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+}
