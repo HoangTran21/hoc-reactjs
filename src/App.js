@@ -1,4 +1,5 @@
 import './App.css';
+import TodoFeature from './features';
 import AlbumFeature from './features/Album';
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
 
       <TodoFeature/>
       </header>  */}
-      <AlbumFeature/>
+      <TodoFeature/>
     </div>
   );
 }
