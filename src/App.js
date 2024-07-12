@@ -1,6 +1,7 @@
-import './App.css';
+import Login from './components/Login';
 import TodoFeature from './features';
 import AlbumFeature from './features/Album';
+import Menu from './components/Menu';
 
 function App() {
 
@@ -36,7 +37,8 @@ function App() {
 
       <TodoFeature/>
       </header>  */}
-      <TodoFeature/>
+      {/* <Login/> */}
+      <Menu/>
     </div>
   );
 }
