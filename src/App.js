@@ -3,6 +3,8 @@ import TodoFeature from './features';
 import AlbumFeature from './features/Album';
 import Menu from './components/Menu';
 import CountryList from './components/CountryList';
+import Cart from './components/Cart';
+
 function App() {
 
   const footballer ={
@@ -39,8 +41,9 @@ function App() {
       </header>  */}
       {/* <Login/> */}
       {/* <Menu/> */}
-
-      {<CountryList/>}
+      {/* {<CountryList/>} */}
+      {/* <AlbumFeature/> */}
+      <Cart/>
     </div>
   );
 }

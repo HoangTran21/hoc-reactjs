@@ -1,11 +1,21 @@
-.album-list{
-    display: flex;
-    flex-flow: nowrap;
-    padding: 0;
-    margin: 0 - 20px;
+.album-list {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  
+    li {
+    flex: 0 1 calc(33.33% - 20px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-    & > li{
-        padding: 0 20px;
+      .album {
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 8px;
+      }
     }
-}
+  }
