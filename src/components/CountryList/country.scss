@@ -1,0 +1,33 @@
+.country{
+    border: 1px solid red;
+    list-style : none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    min-width: 250px;
+
+    &-items{
+        border-bottom: 1px solid red;
+        &:last-child{
+            border-bottom: 0;
+        }
+    }
+    &-text{
+        display: block;
+        background: red;
+        color: white;
+        padding : 6px 10px;
+    }
+    &-city-list{
+        padding: 0;
+        margin: 0;
+        list-style : none;
+        padding: 6px 10px;
+    }
+    &-city-items{
+        border-bottom: 1px solid red;
+    }
+    &-city-items:last-child{
+        border-bottom: 0;
+    }
+}

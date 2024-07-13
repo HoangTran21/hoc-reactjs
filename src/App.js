@@ -2,7 +2,7 @@ import Login from './components/Login';
 import TodoFeature from './features';
 import AlbumFeature from './features/Album';
 import Menu from './components/Menu';
-
+import CountryList from './components/CountryList';
 function App() {
 
   const footballer ={
@@ -38,7 +38,9 @@ function App() {
       <TodoFeature/>
       </header>  */}
       {/* <Login/> */}
-      <Menu/>
+      {/* <Menu/> */}
+
+      {<CountryList/>}
     </div>
   );
 }
